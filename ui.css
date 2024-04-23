@@ -1,0 +1,52 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(180deg, #031363 0%, #020D45 100%) center/cover fixed no-repeat;
+    font-family: 'Sora';
+    font-size: 22px;
+}
+
+ul,
+li,
+a {
+    list-style: none;
+    color: #000;
+    text-decoration: none;
+}
+
+svg {
+    position: absolute;
+    bottom: 0;
+    filter: blur(3px);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+.search-input {
+    width: 400px;
+    padding: 12px;
+    border-radius: 17px;
+    font-size: 18px;
+    outline: 0;
+    border: 0;
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    width: 900px;
+    height: 460px;
+}
