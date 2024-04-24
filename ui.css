@@ -2,6 +2,11 @@ body {
     padding: 0;
     margin: 0;
     background: linear-gradient(180deg, #031363 0%, #020D45 100%) center/cover fixed no-repeat;
+    font-family: Sora, sans-serif;
+    font-size: 22px;
+}
+
+*, ** {
     font-family: 'Sora';
     font-size: 22px;
 }
@@ -49,4 +54,34 @@ svg {
     -webkit-backdrop-filter: blur(5px);
     width: 900px;
     height: 460px;
+    display: flex;
+    color: #fff;
+}
+
+.temperatureContainer {
+    width: 550px;
+    height: 420px;
+    padding: 20px;
+    border-left: 1px solid #000;
+}
+
+.weatherContainer {
+    width: 350px;
+    height: 420px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: column;
+    text-align: center;
+}
+
+.temperature{
+    text-align: center;
+    font-family: Sora, sans-serif;
+    font-size: 22px;
+}
+
+.weather{
+    text-align: center;
 }
